@@ -1,4 +1,4 @@
-# UndercoverciDemoRuby
+# UndercoverCI Demo Ruby
 
 ## License
 
