@@ -11,15 +11,15 @@ class TestUndercoverciDemoRuby < Minitest::Test
     assert ::UndercoverciDemoRuby::One.covered
   end
 
-  # def test_one_uncovered
-  #   assert ::UndercoverciDemoRuby::One.uncovered
-  # end
+  def test_one_uncovered
+    assert ::UndercoverciDemoRuby::One.uncovered
+  end
 
   def test_two_covered
     assert ::UndercoverciDemoRuby::Two.covered
   end
 
-  # def test_two_uncovered
-  #   assert ::UndercoverciDemoRuby::Two.uncovered
-  # end
+  def test_two_uncovered
+    assert ::UndercoverciDemoRuby::Two.uncovered
+  end
 end
