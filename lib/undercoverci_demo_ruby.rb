@@ -17,6 +17,10 @@ module UndercoverciDemoRuby
     def self.uncovered2
       "uncovered2"
     end
+
+    def self.uncovered_not_on_master
+      "I am a new method and have no tests"
+    end
   end
 
   class Two
